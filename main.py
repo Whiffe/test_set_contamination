@@ -17,8 +17,8 @@ import fire  # 用于命令行接口
 from openai import OpenAI  # 导入OpenAI库用于调用GPT模型
 
 # 设置API key和API的基础URL，用于调用 OpenAI 接口
-API_KEY = "sk-BccFVBhmlSgklf6n504a2f3a5cA04f6d8c20718652Ea3d2c"  # 替换为你从 aihubmix 获取的 API key
-BASE_URL = "https://aihubmix.com/v1"  # 替换为 aihubmix API的基本URL
+API_KEY = ""  # 替换为你的 API key
+BASE_URL = ""  # 替换为API的基本URL
 
 # 创建OpenAI客户端，用于后续调用API
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)

@@ -8,6 +8,9 @@
 论文翻译：[ICLR-2024.Oren.PROVING TEST SET CONTAMINATION IN BLACK BOX LANGUAGE MODELS](https://blog.csdn.net/WhiffeYF/article/details/142001436)
 
 b站复现视频：[https://www.bilibili.com/video/BV14d1CYWE26/](https://www.bilibili.com/video/BV14d1CYWE26/)
+
+CSDN：[https://blog.csdn.net/WhiffeYF/article/details/142735595](https://blog.csdn.net/WhiffeYF/article/details/142735595)
+
 # 2 我的总结
 这篇论文的测试数据污染的方法也是很扯淡的，论文结尾也说了，作者自己的方法得先证明数据集内的题目之间的顺序打乱是否有影响，这不就是扯淡么，训练期间，有个策略就是要每次输入训练时，打乱顺序，训练的时候都打乱了，作者测试期间打乱测的出来个屁呀。这也能发顶会，太离谱了。
 
